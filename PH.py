@@ -5,7 +5,8 @@ import json
 import requests
 
 # Load the QA model
-qa_model = pipeline('question-answering', model='bert-large-uncased-whole-word-masking-finetuned-squad')
+qa_model = pipeline('question-answering', model='distilbert-base-uncased-distilled-squad')
+
 
 # Function to extract relevant context from the pre-loaded JSON data
 def extract_context_from_json(json_data, keyword):
