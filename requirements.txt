@@ -1,6 +1,6 @@
 streamlit
 rich
-transformers==4.36.2
+transformers
 torch
-tokenizers==0.13.3
-huggingface-hub>=0.19.3
+tokenizers
+huggingface-hub
