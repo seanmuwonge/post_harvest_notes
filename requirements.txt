@@ -1,6 +1,5 @@
 streamlit
 rich
-pip install --upgrade pip setuptools wheel
 transformers==4.36.2
 torch
 tokenizers==0.14.1
