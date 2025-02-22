@@ -1,4 +1,5 @@
-streamlit==1.18.0
-transformers==4.22.0
-requests==2.27.1
-nltk==3.7
+streamlit
+transformers
+torch
+tokenizers
+rich
